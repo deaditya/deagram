@@ -1507,20 +1507,19 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		.using-mobile-browser .wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
 			min-height: calc(100vh - 100px); 
 		}
-		.admin-bar #page-header-wrap.fullscreen-header,
-			.admin-bar #page-header-wrap.fullscreen-header #page-header-bg,
-			html:not(.nectar-box-roll-loaded) .admin-bar .nectar-box-roll > #page-header-bg.fullscreen-header,
-			.admin-bar .nectar_fullscreen_zoom_recent_projects,
-			.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded), 
-			.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,
-			.admin-bar #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div  {
-				height: calc(100vh - 47px - 46px);
+		#page-header-wrap.fullscreen-header,
+			#page-header-wrap.fullscreen-header #page-header-bg,
+			 html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,
+			 .nectar_fullscreen_zoom_recent_projects,
+			 .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded), 
+			 .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container,
+			 #nectar_fullscreen_rows:not(.afterLoaded):not([data-mobile-disable="on"]) > div {
+				height: calc(100vh - 47px);
 			}
-			.admin-bar .wpb_row.vc_row-o-full-height.top-level, 
-			.admin-bar .wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
-				min-height: calc(100vh - 47px - 46px); 
-			}
-			[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header,
+			.wpb_row.vc_row-o-full-height.top-level, 
+			.wpb_row.vc_row-o-full-height.top-level > .col.span_12 { 
+				min-height: calc(100vh - 47px); 
+			}[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header,
 		[data-bg-header="true"][data-permanent-transparent="1"] #page-header-wrap.fullscreen-header #page-header-bg,
 		html:not(.nectar-box-roll-loaded) [data-bg-header="true"][data-permanent-transparent="1"] .nectar-box-roll > #page-header-bg.fullscreen-header,
 		[data-bg-header="true"][data-permanent-transparent="1"] .nectar_fullscreen_zoom_recent_projects,
@@ -1554,18 +1553,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 					 background-color: rgba(255,255,255,100); 
 				 }.material #header-outer:not(.transparent) .bg-color-stripe { 
 					 display: none; 
-				 }
-			 #search-outer .ui-widget-content, 
-			 body:not([data-header-format="left-header"]) #top .sf-menu li ul, 
-			 #top nav > ul > .megamenu > .sub-menu,
-			 body #top nav > ul > .megamenu > .sub-menu > li > a, 
-			 #header-outer .widget_shopping_cart .cart_list a, 
-			 #header-secondary-outer ul ul li a, 
-			 #header-outer .widget_shopping_cart .cart_list li, 
-			 .woocommerce .cart-notification, 
-			 #header-outer .widget_shopping_cart_content { 
-					background-color: rgba(255,255,255,100)!important; 
-				}@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+				 } .portfolio-loading, #ajax-loading-screen .loading-icon, .loading-icon, .pp_loaderIcon { background-image: url(""); } @media only screen and (min-width: 1000px) and (max-width: 1300px) {
 	    .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2, 
 	    .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content h2,
 	    .full-width-content .vc_span12 .swiper-slide .content h2 {
@@ -1761,10 +1749,255 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 							 max-width: 1425px; 
 						 } 
 					 }	
-		
-		
+	body, .toggle h3 a, body .ui-widget, table, .bar_graph li span strong, #slide-out-widget-area .tagcloud a, 
+		body .container .woocommerce-message a.button, #search-results .result .title span, .woocommerce ul.products li.product h3, 
+		.woocommerce-page ul.products li.product h3, .row .col.section-title .nectar-love span, body .nectar-love span, 
+		body .nectar-social .nectar-love .nectar-love-count, body .carousel-heading h2, .sharing-default-minimal .nectar-social .social-text, 
+		body .sharing-default-minimal .nectar-love, .widget ul.nectar_widget[class*="nectar_blog_posts_"] > li .post-date, 
+		.single [data-post-hs="default_minimal"] #single-below-header span, .single .heading-title[data-header-style="default_minimal"] #single-below-header span {font-family: Karla; font-size:16px; line-height:24px; font-weight:400; }.bold, strong, b { font-family: Karla; font-weight: 600; } .single #single-below-header span { font-family: Karla;  }.nectar-fancy-ul ul li .icon-default-style[class^="icon-"] {line-height:24px;}     
+		 @media only screen and (max-width: 1300px) and (min-width: 1000px) {
+			 body {
+				 font-size: 16px;
+				 line-height: 24px;
+			 }
+		 }
+		 @media only screen and (max-width: 999px) and (min-width: 690px) {
+			 body {
+				 font-size: 16px;
+				 line-height: 24px;
+			 }
+			 
+		 }
+		 @media only screen and (max-width: 690px) {
+			 body {
+				 font-size: 16px;
+				 line-height: 24px;
+			 }
+
+		 }
+		 
+	 
+ #page-header-bg h1, body h1, body .row .col.section-title h1, 
+			.full-width-content .nectar-recent-posts-slider .recent-post-container .inner-wrap h2, body #error-404 h1 {font-family: Rubik; letter-spacing: -3px; font-size:80px; line-height:85px; font-weight:700;  }
+			@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+				body .row .col.section-title h1, body h1, .full-width-content .recent-post-container .inner-wrap h2 {
+					font-size: 60px;
+					line-height: 63.75px;
+				}
+			}
+			@media only screen and (max-width: 999px) and (min-width: 690px) {
+				body .row .col.section-title h1, body h1, html body .row .col.section-title.span_12 h1, .full-width-content .nectar-recent-posts-slider .recent-post-container .inner-wrap h2 {
+					font-size: 56px;
+					line-height: 59.5px;
+				}
+				.full-width-content .recent-post-container .inner-wrap h2 {
+					font-size: 56px;
+					line-height: 59.5px;
+				}
+				
+				.wpb_wrapper h1.vc_custom_heading {
+					font-size: 56px!important;
+					line-height: 59.5px!important;
+				}
+				
+			}
+			@media only screen and (max-width: 690px) {
+				body .row .col.section-title h1, body h1, html body .row .col.section-title.span_12 h1, .full-width-content .nectar-recent-posts-slider .recent-post-container .inner-wrap h2 {
+					font-size: 52px;
+					line-height: 55.25px;
+				}
+				
+				.wpb_wrapper h1.vc_custom_heading {
+					font-size: 52px!important;
+					line-height: 55.25px!important;
+				}
+
+			}
+
 	
+	#page-header-bg h2, body h2, article.post .post-header h2, article.post.quote .post-content h2, 
+		article.post.link .post-content h2, #call-to-action span, .woocommerce .full-width-tabs #reviews h3, 
+		.row .col.section-title h2, .nectar_single_testimonial[data-style="bold"] p,
+		.woocommerce-account .woocommerce > #customer_login .nectar-form-controls .control,
+		body #error-404 h2, .woocommerce-page .woocommerce p.cart-empty { font-family: Rubik; letter-spacing: -1px; font-size:46px; line-height:56px; font-weight:700;  }		
+		.single-product div.product h1.product_title {
+			font-size: 46px;
+			line-height: 56px;
+		}
 		
+		@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+		 	body h2, .single-product div.product h1.product_title {
+		 		font-size: 39.1px;
+				line-height: 47.6px;
+			}
+			.row .span_2 h2, .row .span_3 h2, .row .span_4 h2, .row .vc_col-sm-2 h2, .row .vc_col-sm-3 h2, .row .vc_col-sm-4 h2 { 
+				font-size: 32.2px;
+				line-height: 39.2px;
+			}
+			
+		}
+
+		@media only screen and (max-width: 999px) and (min-width: 690px) {
+		.col h2, h2, .single-product div.product h1.product_title, .woocommerce-account .woocommerce > #customer_login .nectar-form-controls .control {
+				font-size: 36.8px;
+				line-height: 44.8px;
+			}
+			.wpb_wrapper h2.vc_custom_heading {
+				font-size: 36.8px!important;
+				line-height: 44.8px!important;
+			}
+			
+		}
+
+		@media only screen and (max-width: 690px) {
+		.col h2, h2, .single-product div.product h1.product_title, .woocommerce-account .woocommerce > #customer_login .nectar-form-controls .control {
+				font-size: 34.5px;
+				line-height: 42px;
+			}
+			.wpb_wrapper h2.vc_custom_heading {
+				font-size: 34.5px!important;
+				line-height: 42px!important;
+			}
+		}
+		
+		
+	body h3, .row .col h3, .toggle h3 a, .ascend #respond h3, .ascend h3#comments, 
+	.woocommerce ul.products li.product.text_on_hover h3, .masonry.classic_enhanced .masonry-blog-item h3.title, 
+	.woocommerce ul.products li.product.material h3, .woocommerce-page ul.products li.product.material h3, .portfolio-items[data-ps="8"] .col h3,
+	.nectar-hor-list-item[data-font-family="h3"], .woocommerce ul.products li.product h2, .nectar-quick-view-box h1 { font-family: Rubik; letter-spacing: -1px; font-size:32px; line-height:42px; font-weight:700;  }	
+	@media only screen and (min-width: 1000px) {
+		.ascend .comments-section .comment-wrap.full-width-section > h3#comments, .blog_next_prev_buttons[data-post-header-style="default_minimal"] .col h3 {
+			font-size: 54.4px;
+			line-height: 62.4px;
+		}
+
+		#ajax-content-wrap .masonry.classic_enhanced .masonry-blog-item.large_featured h3.title {
+			font-size: 48px;
+			line-height: 63px;
+		}
+	}
+
+	@media only screen and (min-width: 1300px) and (max-width: 1500px){
+		body .portfolio-items.constrain-max-cols.masonry-items .col.elastic-portfolio-item h3 {
+			font-size: 27.2px;
+			line-height: 35.7px;
+		}
+	}
+
+	
+	@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+		.row .span_2 h3, .row .span_3 h3, .row .span_4 h3, .row .vc_col-sm-2 h3, .row .vc_col-sm-3 h3, .row .vc_col-sm-4 h3, .row .col h3, body h3 {
+			font-size: 27.2px;
+			line-height: 35.7px;
+		}
+	}
+
+	@media only screen and (max-width: 999px) and (min-width: 690px) {
+		.row .span_2 h3, .row .span_3 h3, .row .span_4 h3, .row .vc_col-sm-2 h3, .row .vc_col-sm-3 h3, .row .vc_col-sm-4 h3, .row .col h3, body h3 {
+			font-size: 25.6px;
+			line-height: 33.6px;
+		}
+		.wpb_wrapper h3.vc_custom_heading {
+			font-size: 25.6px!important;
+			line-height: 33.6px!important;
+		}
+	}
+
+	@media only screen and (max-width: 690px) {
+		.row .span_2 h3, .row .span_3 h3, .row .span_4 h3, .row .vc_col-sm-2 h3, .row .vc_col-sm-3 h3, .row .vc_col-sm-4 h3, .row .col h3, body h3 {
+			font-size: 25.6px;
+			line-height: 33.6px;
+		}
+		.wpb_wrapper h3.vc_custom_heading {
+			font-size: 25.6px!important;
+			line-height: 33.6px!important;
+		}
+	}
+  
+  
+  @media only screen and (min-width: 1300px) {
+    .nectar-post-grid[data-columns="2"][data-masonry="yes"] > div:nth-of-type(3n + 1) h3 {
+      font-size: 44.8px;
+    }
+  }
+  @media only screen and (max-width: 1300px) and (min-width: 1000px) {
+    .nectar-post-grid[data-columns="2"][data-masonry="yes"] > div:nth-of-type(3n + 1) h3 {
+      font-size: 38.08px;
+    }
+  }
+  @media only screen and (max-width: 999px) and (min-width: 690px) {
+    .nectar-post-grid[data-columns="2"][data-masonry="yes"] > div:nth-of-type(3n + 1) h3 {
+      font-size: 35.84px;
+    }
+  } 
+
+
+	body h4, .row .col h4, .portfolio-items .work-meta h4, .list-icon-holder[data-icon_type="numerical"] span, 
+		.portfolio-items .col.span_3 .work-meta h4, #respond h3, .blog-recent.related-posts h3.title, h3#comments, 
+		.portfolio-items[data-ps="6"] .work-meta h4, .nectar-hor-list-item[data-font-family="h4"], .toggles[data-style="minimal_small"] .toggle > h3 a, 
+		.woocommerce #reviews #reply-title, p.woocommerce.add_to_cart_inline > span.woocommerce-Price-amount, 
+		p.woocommerce.add_to_cart_inline ins > span.woocommerce-Price-amount, #header-outer .total, #header-outer .total strong { font-family: Rubik; letter-spacing: -1px; font-size:18px; line-height:22px; font-weight:500;  }		
+		@media only screen and (min-width: 690px) {
+			.portfolio-items[data-ps="6"] .wide_tall .work-meta h4 {
+				font-size: 30.6px!important;
+				line-height: 38.6px!important;
+			}
+
+			.nectar-slide-in-cart .widget_shopping_cart .cart_list .mini_cart_item > a:not(.remove) {
+				font-family: Rubik!important;font-weight:500!important;			}
+
+		}
+
+		
+		@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+			.row .col h4, body h4 {
+				font-size: 18px;
+				line-height: 22px;
+			}
+		}
+
+		@media only screen and (max-width: 999px) and (min-width: 690px) {
+			.row .col h4, body h4 {
+				font-size: 18px;
+				line-height: 22px;
+			}
+		}
+
+		@media only screen and (max-width: 690px) {
+			.row .col h4, body h4 {
+				font-size: 16.2px;
+				line-height: 19.8px;
+			}
+		}
+		
+		
+	body h5, .row .col h5, .portfolio-items .work-item.style-3-alt p, .nectar-hor-list-item[data-font-family="h5"] { font-family: Rubik; letter-spacing: -1px; font-size:16px; line-height:22px; font-weight:400;  }
+		body .wpb_column > .wpb_wrapper > .morphing-outline .inner > h5 {
+			font-size: 22px;
+		}
+		
+		
+		@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+			.row .col h5, body h5 {
+				font-size: 16px;
+				line-height: 22px;
+			}
+		}
+
+		@media only screen and (max-width: 999px) and (min-width: 690px) {
+			.row .col h5, body h5 {
+				font-size: 16px;
+				line-height: 22px;
+			}
+		}
+
+		@media only screen and (max-width: 690px) {
+			.row .col h5, body h5 {
+				font-size: 16px;
+				line-height: 22px;
+			}
+		}
+	
 		
 		
 
